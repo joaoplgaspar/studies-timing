@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+<h1> Studies (Alura Studies) </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Static Badge](https://img.shields.io/badge/Status-_Finalizado-green?style=for-the-badge)
 
-## Available Scripts
+Site para definir um plano de estudos e os seus devidos tempos, com uma lista mostrando todos os itens e um cronometro para informar quando o tempo for atingido a cada tarefa.
 
-In the project directory, you can run:
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Alura Studies**
+| :label: Tecnologias | react, typescript, html5, sass, javascript
+| :rocket: URL         | https://studies-timing.vercel.app
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Alura Studies](https://github.com/joaoplgaspar/studies-timing/assets/130015259/a1faa676-edf1-47b0-865c-8ef57811b91e#vitrinedev)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr>
 
-### `npm test`
+## Resumo do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projeto proposto por um curso Alura para ensino de React com Typescript. O Alura Studies tem como objetivo organizar seus estudos, com a entrada do nome da tarefa e o seu tempo, mostrando em uma lista organizada todos os itens, neste ponto é possível selecionar uma tarefa e iniciar o cronometro, ao fim do tempo a tarefa é concluída na lista. Foi trabalhado os tópicos de organização de um projeto Typescript React, componetização, uso de modules css e sass, spreads operators, interface reutilizaveis e types no Typescript, uso de estados, ciclo de vida de um componente, useEffect e refatoração de um class component para um function component.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Studies Gif](https://github.com/joaoplgaspar/studies-timing/assets/130015259/b0025d20-9899-48c9-a71b-0449c2667752)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :hammer: Funcionalidades do projeto
 
-### `npm run eject`
+- `Funcionalidade 1`: Adicionar uma tarefa com nome e tempo para ser concluída através do formulário
+- `Funcionalidade 2`: Selecionar uma tarefa na lista com todas as tarefas
+- `Funcionalidade 3`: Iniciar um cronometro para a tarefa selecionada, que ao final do tempo será concluída
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ✔️ Técnicas e tecnologias utilizadas e desenvolvidas
+- ``React com TypeScript, JavaScript, Html, Css e Sass``
+- ``Manipulação do estado do objeto``
+- ``Componentização``
+- ``Modulos de Css e Sass``
+- ``Spreads Operator``
+- ``Interfaces reutilizaveis em TypeScript``
+- ``useState e useEffect``
+- ``Ciclo de vida de um componente``
+- ``Refatoração de um class component para function component``
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🛠️ Abrir e rodar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Utilize `npm install` dentro da pasta do projeto para baixar suas pendências**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+**A seguir `npm start` para iniciar o projeto**
